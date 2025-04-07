@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'rettisha';
+    src: url('../Rettisha\ Regular.ttf');
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+}
+
+*:hover{
+    transition: 0.5s;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+/* *::-webkit-scrollbar{
+    display: none;
+  } */
+
+h1,
+span,
+.heading{
+    font-family: 'rettisha',serif;
+    font-weight: 500;
+    letter-spacing: 15px;
+}
+
+/*Navbar*/
+.Link,
+.logo,
+.PH{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Link:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+/*hero*/
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(0.95);
+    background-color: transparent;
+    color: #9C6BA6;
+    transition: 1s;
+}
+
+.PH .model:Hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.collection{
+    background-color: white;
+    width: fit-content;
+    padding: 0px 0px 20px 0px;
+    background: #f2f2f2;
+    box-shadow: 0 0.5px 1px rgba(0,0,0,0.25),
+    0 3px 6px rgba(0,0,0,0.22);
+    filter: grayscale(0.2);
+}
+.collection img{
+    aspect-ratio: 1/1;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+.collection:hover{
+    transform: scale(1.0005);
+    filter: grayscale(0);
+    transition: 0.5s;
+    box-shadow: 0 15px 28px rgba(0,0,0,0.25),
+    0 3px 6px rgba(0,0,0,0.22);
+}
+
+
+.Why p{
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: #808080;
+}
